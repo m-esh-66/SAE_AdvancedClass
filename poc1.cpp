@@ -69,7 +69,7 @@ int main() {
 
     Mat frame;
     while (cap.read(frame)) {
-        detectWhiteSquares(frame);  // Detect white squares
+        detectWhiteSquares(frame);  // Detect white squares iweiuqweiu
 
         // Wait for key press and check which key was pressed
         int key = waitKey(30);  // Wait 30ms for a key press (if no key is pressed, continue)
@@ -81,7 +81,7 @@ int main() {
             // Wait until a key is pressed to continue
             while (true) {
                 int pauseKey = waitKey(0);  // Wait for any key to continue
-                if (pauseKey != -1) break;  // Continue when any key is pressed
+                if (pauseKey != -1) break;  // Continue when any key is pressed //
             }
         }
     }
